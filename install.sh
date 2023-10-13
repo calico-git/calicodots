@@ -10,6 +10,6 @@ git clone --recursive https://github.com/hyprwm/Hyprland
 cd Hyprland
 sudo make install
 zsh
-sudo chsh
+chsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 systemctl enable --now sddm
