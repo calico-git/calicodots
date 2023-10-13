@@ -1,7 +1,7 @@
 # calicodots
 my dots for arch linux
 
-this install assumes you have installed arch linux minimal profile and grub
+this install assumes you have installed arch linux minimal profile, pipewire and grub
 
 ```
 sudo pacman -S git
