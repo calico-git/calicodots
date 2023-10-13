@@ -10,3 +10,5 @@ cd calicodots
 chmod u+x install.sh
 ./install.sh
 ```
+
+:3
