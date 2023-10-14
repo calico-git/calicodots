@@ -11,5 +11,6 @@ cd Hyprland
 sudo make install
 cd ../..
 cp -r calicodots/hyprland.conf calicodots/keybindings.conf ~/.config/hypr/
+cp -r calicodots/Kvantum ~/.config/
 systemctl enable --now sddm
 reboot
