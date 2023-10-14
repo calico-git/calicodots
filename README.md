@@ -21,4 +21,6 @@ cd calicodots
 chmod u+x install.sh
 ./install.sh
 ```
+always clone the repo in your home dir (~/)
+
 :3
