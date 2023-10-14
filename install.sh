@@ -11,5 +11,5 @@ cd Hyprland
 sudo make install
 cd ../..
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-cp -r /calicodots/hyprland.conf /calicodots/keybindings.conf ~/.config/hypr/
+cp -r calicodots/hyprland.conf calicodots/keybindings.conf ~/.config/hypr/
 systemctl enable --now sddm
