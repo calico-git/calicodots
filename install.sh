@@ -9,7 +9,7 @@ yay -S kitty swaybg wofi nano sddm-git steam discord thunderbird dolphin spotify
 git clone --recursive https://github.com/hyprwm/Hyprland
 cd Hyprland
 sudo make install
-cd ..
+cd ../..
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 cp -r /calicodots/hyprland.conf /calicodots/keybindings.conf ~/.config/hypr/
 systemctl enable --now sddm
